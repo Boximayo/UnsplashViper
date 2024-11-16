@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4151C9462CE9438A00B6934C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4151C9452CE9438A00B6934C /* Kingfisher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4151C9262CE9431D00B6934C /* UnsplashViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4151C9462CE9438A00B6934C /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = UnsplashViper;
 			packageProductDependencies = (
+				4151C9452CE9438A00B6934C /* Kingfisher */,
 			);
 			productName = UnsplashViper;
 			productReference = 4151C9262CE9431D00B6934C /* UnsplashViper.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 4151C91D2CE9431D00B6934C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4151C9442CE9438A00B6934C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4151C9272CE9431D00B6934C /* Products */;
 			projectDirPath = "";
@@ -335,6 +344,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4151C9442CE9438A00B6934C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4151C9452CE9438A00B6934C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4151C9442CE9438A00B6934C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4151C91E2CE9431D00B6934C /* Project object */;
 }
